@@ -1,11 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import AnimalBracket from './components/AnimailBracket';
+import ArtBracket from './components/ArtBracket'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <AnimalBracket/>
+      <ArtBracket/>
       <StatusBar style="auto" />
     </View>
   );
