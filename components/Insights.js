@@ -41,7 +41,7 @@ const total = (globalInsight[0].choiceOneTotal.Fish + globalInsight[0].choiceOne
 return (
     <View>
         <Text>
-            Your favorite animal was {(userInsight.choiceThirtyOne).toLowerCase()} along with {Math.ceil((globalInsight[0].choiceSevenTotal[`${userInsight.choiceSeven}`])*100/total)}% of other users.
+            Your favorite animal was {(userInsight.choiceSeven).toLowerCase()} along with {Math.ceil((globalInsight[0].choiceSevenTotal[`${userInsight.choiceSeven}`])*100/total)}% of other users.
         </Text>
         <Text>
             Your favorite art form was {(userInsight.choiceFourteen).toLowerCase()} along with {Math.ceil((globalInsight[0].choiceFourteenTotal[`${userInsight.choiceFourteen}`])*100/total)}% of other users.
